@@ -14,7 +14,7 @@ function getCurrentUser(){
 
 $(function(){
    	//make connection
-	var socket = io.connect('https://thawing-island-64670.herokuapp.com')
+	var socket = io.connect('https://shielded-oasis-27533.herokuapp.com')
 	getCurrentUser();
 	//buttons and inputs
 	var message = $("#message")
